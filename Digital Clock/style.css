@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#clock {
+    background: black;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px gray;
+}
+#hours, #minutes, #ampm, #seconds, .dots{
+color: red;
+font-family: sans-serif;
+font-size: 50px;
+display: inline-block;
+text-shadow: 0px 0px 20px red;
+border: none 
+}
+
+
+#ampm {
+    font-size: 35px;
+    margin-left: 10px;
+    color: red;
+}
